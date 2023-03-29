@@ -131,8 +131,6 @@ def after():
 
         text_in.append(sampled_word)
 
-
-
     return render_template('after.html', data=final)
 
 if __name__ == "__main__":
